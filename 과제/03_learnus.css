@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap');
+
+* {
+    font-family: 'Gothic A1';
+}
+
+html,body {height: 100%;}
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+.first-header {
+    width: 100%;
+    height: 30px;
+    background-color: #003875;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.second-header {
+    width: 100%;
+    height: 90px;
+    background-color: #001A38;
+}
+.third-header {
+    width: 100%;
+    height: 50px;
+    background-color: #398ECB;
+    box-shadow: 10 0px 10px 10px black;
+}
+.image-part { /*이미지가 화면에 꽉차게 지정하기 ? 더 좋은 방법 찾기*/
+    height: 551px;
+    background-image: url(img/mainimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.mybody {
+    width: 100%;
+    height: 70%;
+    background-color: aquamarine;
+    display: table;
+}
+nav {
+    width: 15%;
+    height: 100%;
+    background-color: #F0F2FA;
+    display: table-cell;
+}
+article {
+    width: 70%;
+    height: 100%;
+    background-color: #F0F2FA;
+    display: table-cell;
+}
+.notice {
+    width: 48%;
+    height: auto;
+    float: left;
+    margin-right: 4%;
+}
+.promotion-video {
+    width: 48%;
+    height: auto;
+    float: right;
+}
+aside {
+    width: 15%;
+    height: 100%;
+    background-color: #F0F2FA;
+    display: table-cell;
+}
+footer {
+    width: 100%;
+    height: 10%;
+    background-color: black;
+}
+
+.selectlang {
+    text-align: center;
+    height: 25px;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #001A38;
+    color: white;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.login-button {
+    text-align: center;
+    height: 25px;
+    font-size: 15px;
+    color: white;
+    background-color: #3076D6;
+    font-weight: bolder;
+    border: none;
+    border-radius: 3px;
+    margin-left: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.learnus {
+    font-size: 30px;
+    font-weight: bolder;
+    float: left;
+    color: white;
+    padding-left: 14%;
+}
+
+.float-wrap {
+    overflow: hidden;
+}
+
+.menubar {
+    margin: 0;
+    padding: 0;
+    float: right;
+    padding-right: 13%;
+    padding-top: 8px;
+}
+
+.menu {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 30px;
+} 
+
+.mncomp {
+    display: block;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.eventmsg {
+    color: white;
+    float: left;
+    padding-left: 14%;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.remove {
+    float: right;
+    padding-right: 13%;
+    margin-top: 10px;
+}
+
+.removemsg {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.firsts {
+    margin-right: 13%;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 28px;
+    margin-top: 40px;
+}
+.title {
+    float: left;
+}
+.moreseemsg {
+    font-size: 15px;
+    color: #999999;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.moresee {
+    float: right;
+    margin-top: 40px;
+}
+.calendar {
+    float: left;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 1px;
+    border-color: black;
+}
+.month {
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 0.1px;
+    color: #3076D6;
+}
+.yearmonth {
+    font-weight: bolder;
+    color: #999999;
+}

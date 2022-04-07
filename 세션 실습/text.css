@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+#box1 {
+    background-color: cyan;
+    margin: 10px;
+    font-size: 50px;
+
+}
+#box2 {
+    background-color: magenta;
+    margin: 30px;
+    font-size: 50px;
+}
+#box3 {
+    background-color: gold;
+    margin: 30px;
+    padding: 20px;
+    font-size: 50px;
+}
+#box_container {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Nanum+Myeongjo:wght@700;800&display=swap');
+
+* {
+    font-family: 'Gothic A1';
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,58 @@
+* {
+    font-family: 'Nanum Myeongjo', serif;
+}
+article {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 300;
+}
+.btn-dark {
+    font-size: 25px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #ffa7a3, #5673bd);
+    padding: 0.43em 1em;
+    border: none;
+}
+.question {
+    display: none;
+}
+.result {
+    display: none;
+}
+.btn-primary {
+    font-size: 20px;
+    background-color: cornflowerblue;
+}
+.progress {
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+#img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+#result_name {
+    border-bottom: 12px solid #dcf1fb;
+    padding: 0 0 0 0.2em;
+    width: 300px;
+    margin: 0 auto;
+}
+#explain {
+    line-height: 35px;
+}
+
+.share {
+    margin: 0 auto;
+}
+.kakao_ad {
+    width: 320px;
+    margin: 0 auto;
+}

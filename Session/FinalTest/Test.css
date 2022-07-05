@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+header {
+    height: 50px;
+    background-size: cover;
+    background-color: darkblue;
+    color: white;
+    font-size: 15px;
+    vertical-align: middle;
+    display: flex;
+}
+i {
+    margin: 18px;
+}
+#slideShow {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: 50px auto;
+    background-color: skyblue;
+}
+.slides {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 500px;
+    transition: left 0.5s ease-out;
+
+}
+.slides li:not(:last-child) {
+    float: left;
+    margin-right: 100px;
+}
+.slides li{
+    float: left;
+}
+.controller span{
+    position:absolute;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px 20px;
+    top: 50%;
+    font-size: 1.3em;
+    cursor: pointer;
+  }
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
+
+.image-container img {
+    width: 200px;
+    margin: 0 15px;
+}
+
+.intro {
+    background-color: darkblue;
+    display: flex;
+    flex-direction: row;
+}
+
+.mypic {
+    width: 80px;
+    height: 80px;
+    margin: 15px;
+}
+
+.mysentence {
+    color: white;
+}
+.Posts {
+    padding: 10px;
+}
+.title {
+    color: darkblue;
+    font-size: 13px;
+    font-weight: bold;
+}
+.story {
+    line-height: 15px;
+    font-weight: bold;
+}
